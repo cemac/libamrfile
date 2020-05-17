@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # build libamrfile.so, for use with python
-# updated: 2019-09-03
+# updated: 2020-05-17
 #
 # build on a CentOS6 host, for forward compatibility.
 #
@@ -20,11 +20,11 @@
 
 # verion information:
 #
-#  bisicles 20190828: 
+#  bisicles 20200504: 
 #
-#    > r3844 | slcornford | 2019-08-28 12:42:20 +0100 (Wed, 28 Aug 2019) | 1 line
-#    > 
-#    > fix testL1L2 and friends to compile
+#    > r3925 | dmartin | 2020-05-04 09:34:38 +0100 (Mon, 04 May 2020) | 3 lines
+#    >
+#    > first cut at all sectors done...
 #
 #  chombo 3.2.patch8:
 # 
@@ -56,9 +56,9 @@ cd ${BUILD_DIR}
 
 # extract bisicles and chombo:
 export BISICLES_HOME=${BUILD_DIR}
-tar xzf ${SRC_DIR}/bisicles-20190828.tar.gz
+tar xzf ${SRC_DIR}/bisicles-20200504.tar.gz
 tar xzf ${SRC_DIR}/chombo-3.2.patch8.tar.gz
-mv bisicles-20190828 BISICLES
+mv bisicles-20200504 BISICLES
 mv chombo-3.2.patch8 Chombo
 
 # make definitions:
