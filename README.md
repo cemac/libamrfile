@@ -12,7 +12,7 @@ More information regarding `libamrfile` can be found here:
 `libamrfile.so` was build on a CentOS 6 system, with version 4.8.1 of the GCC
 compilers.
 
-BISICLES and Chombo are released under the [Chombo license](License).
+BISICLES and Chombo are released under the [Chombo license](LICENSE).
 
 BISICLES version:
 
